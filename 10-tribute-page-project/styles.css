@@ -1,0 +1,25 @@
+
+  body {
+    margin: 0;
+    font-family: Arial;
+    background: #EBE7E7;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 32px;
+    background: #da8383;
+  }
+
+
+.img{
+    align-items: center;
+    margin:auto;
+    background-color: tomato;
+    padding: 32px;
+    width:50%;
+    display:block;
+    max-width: 50%;
+    align-self: center;
+    text-align: center;
+}
