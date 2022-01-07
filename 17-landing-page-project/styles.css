@@ -7,13 +7,18 @@
 
 header, #header-img{
 
-    background-color: indianred;
+    background-color: transparent;
 }
 
-
+.blocco{
+    border:solid;
+    margin:10px;
+    border-radius: 10px;
+    padding:20px;
+}
 
 .flex-container{
-    background-color: rgb(205, 203, 92);
+    background-color: peachpuff;
     display: flex;
     flex-direction:row;
     width:80%;
@@ -37,15 +42,21 @@ a{
     margin:auto;
     align-self: center;
     width: 80%;
-    background-color: grey;
+    /*background-color: grey;*/
     border-radius: 10px;
     display: flex;
     flex-direction:column;
+    padding:20px;
+    background: rgb(63,94,251);
+    background: linear-gradient(167deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 678px) {
     #main-doc{
-        background-color: rgb(145, 87, 87);
+        background-color: darkgray;
     }
-    
+    #video{
+        width:300px; 
+    }
   }
