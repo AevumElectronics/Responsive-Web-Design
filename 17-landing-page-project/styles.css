@@ -43,8 +43,9 @@ a{
     flex-direction:column;
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 600px) {
     #main-doc{
         background-color: rgb(145, 87, 87);
     }
+    
   }

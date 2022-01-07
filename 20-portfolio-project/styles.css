@@ -1,0 +1,68 @@
+body{
+    display: block;
+    background-color: khaki;
+    margin: auto;
+    padding: 0;
+}
+
+header{
+
+    width:100%;
+    background-color: indianred;
+
+}
+
+
+#navbar{
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    width: 100%;
+    background-color: rgb(188, 205, 92);
+    position: fixed;
+    margin:auto;
+}
+#header-img{
+    max-width: 130px;
+}
+header{
+    width: 100%;
+    padding:0;
+    
+}
+
+.welcome-section{
+    padding-top: 0px;
+    margin-top: 0px;
+    display: block;
+    height: 100vh;
+}
+
+#welcome-img{
+    max-height: 100%;
+    width:100%;
+    object-fit: cover;
+    margin: 0;
+}
+
+
+.blocco{
+    background-color: rgb(92, 94, 205);
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 28px;
+    color:white
+  }
+
+
+@media only screen and (max-width: 600px) {
+    #main-doc{
+        background-color: rgb(145, 87, 87);
+    }
+    
+  }
