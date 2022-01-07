@@ -44,12 +44,24 @@ header{
     object-fit: cover;
     margin: 0;
 }
-
+.centro{
+    width:80%;
+    margin:auto;
+}
 
 .blocco{
     background-color: rgb(92, 94, 205);
+    border-radius: 10px;
+    padding:20px;
+    margin:20px;
 }
-
+.project-tile{
+    max-width: 450px;
+    border:solid;
+}
+.tile-img{
+    max-width: 450px;
+}
 .center {
     position: absolute;
     top: 50%;
