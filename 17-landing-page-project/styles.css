@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+
+header, #header-img{
+
+    background-color: indianred;
+}
+
+
+
+.flex-container{
+    background-color: rgb(205, 203, 92);
+    display: flex;
+    flex-direction:row;
+    width:80%;
+    margin:10px auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:20px;
+    border-radius: 10px;
+}
+
+a{
+    font-size:26px;
+}
+
+#header-img{
+    max-width: 300px;
+}
+
+
+#main-doc{
+    margin:auto;
+    align-self: center;
+    width: 80%;
+    background-color: grey;
+    border-radius: 10px;
+    display: flex;
+    flex-direction:column;
+}
+
+@media only screen and (max-width: 720px) {
+    #main-doc{
+        background-color: rgb(145, 87, 87);
+    }
+  }
