@@ -1,2 +1,2 @@
 # Responsive-Web-Design
-A collection of Responsive Web Design exercise
+A collection of Responsive Web Design exercise from FreeCodeCamp
